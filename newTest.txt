@@ -1,0 +1,113 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #241e1e;
+}
+
+a{
+    text-decoration: none;
+    color: #06aceb;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 2.75em;
+    margin: 0;
+}
+
+h2{
+    font-size: 1.625em;
+    margin-bottom: 0.5em ;
+}
+
+h3{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+p{
+    margin: 0 0 1.5em 0;
+    line-height: 1.5;
+}
+/* Navbar -------------- */
+header {
+    text-align: center;
+    background-color: #06aceb;
+    position: sticky;
+    top: 0;
+  
+}
+header a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1em 1.25em;
+    display: inline-block;
+}
+
+header a:hover{
+    color: yellow;
+}
+
+
+/* Header Section ------------------*/
+.hero{
+    padding: 1.875em 0px;
+    background: #000 url('images/space.jpg');
+    text-align: center;
+    color: white;
+    background-size: cover;
+    border-bottom: 8px solid #e6e9ea;
+}
+
+.hero span{
+    font-size: 1.375em;
+}
+
+.featured-img{
+    width: 140px;
+    border: solid 2px white;
+    border-radius: 50%;
+}
+
+/* Main Content Container */
+.container{
+    pad: 16px 0px;
+    width: 90%;
+    max-width: 740px;
+    margin: 0 auto;
+}
+
+/* Site Footer */
+footer{
+    text-align: center;
+    background-color: #241e1e;
+    padding: 1.5em 0px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Image Container */
+.img-container img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom:  0.75em;
+}
+
+/* Intro Section */
+.intro{
+    margin-bottom: 2em;
+    border-bottom: dotted 1px #7e8494;
+}
+
+.intro p{
+    color: #7e8494;
+}
